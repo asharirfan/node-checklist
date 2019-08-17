@@ -4,7 +4,8 @@
   "description": "A simple checklist app in Node JS.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/asharirfan/node-checklist/issues"
   },
-  "homepage": "https://github.com/asharirfan/node-checklist#readme"
+  "homepage": "https://github.com/asharirfan/node-checklist#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint-config-wordpress": "^2.0.0",
+    "eslint-plugin-wordpress": "^0.1.0",
+    "nodemon": "^1.19.1"
+  }
 }

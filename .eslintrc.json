@@ -1,0 +1,36 @@
+{
+	"env": {
+		"browser": false,
+		"commonjs": true,
+		"es6": true
+	},
+	"extends": "wordpress",
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": false
+		},
+		"sourceType": "module"
+	},
+	"rules": {
+		"indent": [
+			"error",
+			"tab"
+		],
+		"linebreak-style": [
+			"error",
+			"unix"
+		],
+		"quotes": [
+			"error",
+			"single"
+		],
+		"semi": [
+			"error",
+			"always"
+		],
+		"camelcase": 1,
+		"brace-style": 1,
+		"no-shadow": 1,
+		"require-jsdoc": 0
+	}
+}

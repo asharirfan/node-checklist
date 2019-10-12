@@ -1,32 +1,31 @@
 {
-  "name": "checklist",
-  "version": "1.0.0",
-  "description": "A simple checklist app in Node JS.",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index",
-    "dev": "nodemon index"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/asharirfan/node-checklist.git"
-  },
-  "keywords": [
-    "nodejs",
-    "checklist"
-  ],
-  "author": "asharirfan",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/asharirfan/node-checklist/issues"
-  },
-  "homepage": "https://github.com/asharirfan/node-checklist#readme",
+  "name": "node-checklist",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "express": "^4.17.1"
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-scripts": "3.2.0"
   },
-  "devDependencies": {
-    "eslint-config-wordpress": "^2.0.0",
-    "eslint-plugin-wordpress": "^0.1.0",
-    "nodemon": "^1.19.1"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
